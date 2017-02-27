@@ -4,8 +4,9 @@ import { render } from 'react-dom';
 
 import App from './components/App.js';
 import Main from './components/First.js';
+import Header from './components/Header.js';
 
-console.log(Main)
+console.log(Header)
 
 
 import { Router, Route, IndexRoute, browserHistory} from 'react-router';
@@ -20,7 +21,7 @@ const router = (
 	<Provider store={store}>
 	    <Router history={history}>
 	        <Route path="/" component={App}>
-	            <IndexRoute>helloooo</IndexRoute>
+	            <IndexRoute></IndexRoute>
 	            <Route path="/view/:eventId"></Route>
        	    </Route>
  	    </Router>

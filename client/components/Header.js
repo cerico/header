@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Main extends Component {
+class Header extends Component {
 
   constructor() {
     super();
@@ -10,10 +10,11 @@ class Main extends Component {
     console.log(this) 
     return (
       <div className="App">
-       ..
+       header
       </div>
     );
   }
 }
 
-export default Main;
+export default Header;
+
