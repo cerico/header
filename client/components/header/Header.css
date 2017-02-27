@@ -6,20 +6,7 @@
   box-sizing: border-box; 
 }
 
-.group:after,
-.group:before,
-.posts-navigation:after,
-.posts-navigation:before,
-.post-navigation:after,
-.post-navigation:before,
-.nav-links:before,
-.nav-links:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden; 
-}
+
 
 body {
   background: #80c8d8;
@@ -34,6 +21,7 @@ a {
 .site-title{
   padding-top:3%;
   padding-left:3%;
+  background:yellow;
 }
 
 h1 {
