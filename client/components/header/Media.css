@@ -1,0 +1,171 @@
+    
+@media screen and (min-width: 1205px) {
+  .site-header .tagline h2 {
+    font-size: 20px; } }
+@media screen and (max-width: 1090px) {
+  .main-banner .banner-description,
+  .main-banner .writing-link {
+    width: 66.60550459%; }
+  .main-banner .banner-image {
+    width: 33.39449541%; } }
+@media screen and (max-width: 1060px) {
+  .site-header .tagline h2 {
+    font-size: 16px;
+    line-height: 1.8em; } }
+@media screen and (max-width: 1000px) {
+  .writing-banner .writing-banner-inner {
+    padding: 70px 9.523809524% 140px 9.523809524%; }
+
+  .posts-list,
+  .posts-navigation .nav-links,
+  .post-navigation .nav-links,
+  .entry-content-outer,
+  .entry-footer,
+  .comments-area {
+    width: 84%;
+    /* 840/1000 */ }
+
+  .posts-list li {
+    padding: 80px 9.523809524% 0 9.523809524%; }
+
+  .page-footer {
+    padding: 6.818181818% 0; }
+
+  .footer-container {
+    margin: 0 auto;
+    width: 84%; } }
+@media screen and (max-width: 980px) {
+  .elsewhere p {
+    font-size: 24px; } }
+@media screen and (max-width: 960px) {
+  .site-header h1 {
+    height: 125px;
+    width: 16.6%; }
+    .site-header h1 a {
+      height: 125px;
+      padding: 20px 40px; }
+  .site-header .tagline {
+    height: 125px;
+    width: 83.4%; }
+    .site-header .tagline h2 {
+      font-size: 18px;
+      line-height: 1.6em; }
+
+  .main-banner .banner-description,
+  .main-banner .writing-link {
+    width: 100%; }
+
+  .notes {
+    padding-top: 50px; }
+    .notes li {
+      padding-bottom: 50px;
+      padding-right: 6.818181818%;
+      width: 100%; }
+      .notes li:nth-of-type(even) {
+        margin-left: 0; }
+
+  .latest-work {
+    padding: 10px 6.818181818% 50px 6.818181818%; }
+    .latest-work li {
+      margin: 0 3% 30px 0;
+      width: 48.5%; }
+      .latest-work li:nth-child(3n+3) {
+        margin-right: 3%; }
+      .latest-work li:nth-of-type(even) {
+        margin-right: 0; }
+
+  .page-footer .footer-nav,
+  .page-footer p {
+    float: none;
+    width: 100%; }
+  .page-footer p {
+    margin-top: 50px; } }
+@media screen and (max-width: 820px) {
+  .about-content p {
+    font-size: 20px; }
+
+  .about-content .work-experience-header {
+    width: 100%;
+    text-align: left;
+    padding: 0 40px; }
+  .about-content .work-experience {
+    width: 100%;
+    padding: 0 40px; }
+    .about-content .work-experience:before {
+      left: 100px; }
+    .about-content .work-experience:after {
+      left: 92px; } }
+@media screen and (max-width: 775px) {
+  .posts-list-notes h1 {
+    font-size: 40px; } }
+@media screen and (max-width: 960px) and (min-width: 700px) {
+  .site-header nav {
+    background: #b17a86;
+    height: auto;
+    width: 100%; }
+    .site-header nav li {
+      width: 16.66666667%; }
+      .site-header nav li.writing-link {
+        background: #4fae9a; }
+      .site-header nav li.notes-link {
+        background: #79c2b2; }
+      .site-header nav li.talks-link {
+        background: #575d5f; }
+      .site-header nav li.work-link {
+        background: #5e6567; }
+      .site-header nav li.about-link {
+        background: #a2606f; }
+      .site-header nav li.contact-link {
+        background: #b17a86; }
+      .site-header nav li a {
+        padding: 0;
+        text-align: center; } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+@media screen and (max-width: 700px) {
+  .site-header nav {
+    height: auto;
+    width: 100%; }
+    .site-header nav li a {
+      height: auto;
+      padding: 20px;
+      text-align: center; }
+  .site-header .site-description {
+    position: relative; }
+    .site-header .site-description:after, .site-header .site-description:before {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .site-header h1 {
+    position: absolute;
+    height: 100%;
+    width: 33.33333333%; }
+    .site-header h1 a {
+      height: 100%;
+      left: 0;
+      position: absolute; }
+  .site-header .tagline {
+    height: auto;
+    left: 33.33333333%;
+    position: relative;
+    width: 66.66666667%; }
+    .site-header .tagline p {
+      font-size: 16px; }
+}
