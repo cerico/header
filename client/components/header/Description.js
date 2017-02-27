@@ -11,7 +11,10 @@ class Description extends Component {
     console.log(this) 
     return (
       <div className="site-description">
-       Description
+      <h1 className="site-title"><a href="#" rel="home">Behaviour Basics</a></h1>
+      	<div className="tagline">
+      		<h2>Hello! Behaviouffr Basics is on your case <a href="./category/writing" className="writing-link">writes</a> and speaks about  <a href="./category/working" className="designer-link" title="portfolio">work</a> and life.</h2>
+      	</div>
       </div>
     );
   }
