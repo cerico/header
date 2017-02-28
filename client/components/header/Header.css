@@ -6,10 +6,8 @@
   box-sizing: border-box; 
 }
 
-
-
 body {
-  background: #80c8d8;
+  background: #fafae8;
   color: #4b5052;
   font-family: "abril-text", georgia; 
 }
@@ -45,7 +43,6 @@ h1 {
     /* 240/1440 */ 
   }
   .site-header h1 a {
-    /*background: url(img/logo.png) center no-repeat;*/
     background-size: 218px 164px;
     display: block;
     height: 150px;
@@ -54,7 +51,6 @@ h1 {
     width: 100%; 
   }
   .site-header .tagline {
-    font-family: "abril-text", georgia;
     background: #4b5052;
     font-family: "abril-text", georgia;
     padding: 30px 40px 40px 40px;
@@ -67,21 +63,7 @@ h1 {
     letter-spacing: -.005em;
     line-height: 1.6em; 
   }
-  .site-header .tagline .designer-link {
-    color: #79c2b2; 
-  }
-  .site-header .tagline .designer-link:hover {
-    color: #bfe2da; 
-  }
-  .site-header .tagline .writing-link {
-    color: #d690a0; 
-  }
-  .site-header .tagline .writing-link:hover {
-    color: #ebc8d0; 
-  }
-  .site-header .tagline .speaking-link {
-    color: #d8c287; 
-  }
+
   .site-header nav {
     background: #4b5052;
     width: 50%; 
@@ -129,3 +111,6 @@ h1 {
   .site-header nav li.contact-link {
     background: #4b5052; 
   }
+
+
+
