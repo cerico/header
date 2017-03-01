@@ -8,14 +8,16 @@ class Main extends Component {
 
   constructor() {
     super();
+
    }
 
   render() {
     console.log(this) 
+    const no = "love it"
     return (
       <div>
         <Header/>
-        <Content/>
+        <Content {...this.props}/>
       </div>
     );
   }
