@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import styles from './Header.css';
+console.log(styles)
 
 class Navigation extends Component {
 
@@ -10,24 +11,24 @@ class Navigation extends Component {
   render() {
     console.log(this) 
     return (
-      <nav className="main-navigation">
+      <nav className={styles.navigation}>
        <ul>
-       	<li className="writing-link ">
+       	<li className={styles.writing}>
        		<a href="./category/writing">Writing</a>
        	</li>
-       	<li className="notes-link ">
+       	<li className={styles.notes}>
        		<a href="./category/speaking">Speaking</a>
        	</li>
-       	<li className="talks-link ">
+       	<li className={styles.talks}>
        		<a href="./category/working">Work</a>
        	</li>
-       	<li className="work-link ">
+       	<li className={styles.work}>
        		<a href="./category/notes">Notes</a>
        	</li>
-       	<li className="about-link">
+       	<li className={styles.about}>
        		<a href="./about-me/">About</a>
        	</li>
-       	<li className="contact-link">
+       	<li className={styles.contact}>
        		<a href="./get-in-touch/">Contact</a>
        	</li>
        </ul>

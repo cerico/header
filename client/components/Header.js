@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Description from './header/Description.js';
 import Navigation from './header/Navigation.js';
-import css from './header/Header.css';
-
+import styles from './header/Header.css';
+console.log(styles)
 
 class Header extends Component {
 
@@ -13,7 +13,7 @@ class Header extends Component {
   render() {
     console.log(this) 
     return (
-      <div className="site-header group">
+      <div className={styles.header}>
        <Description/>
        <Navigation/>
       </div>

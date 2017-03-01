@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import styles from './Header.css';
+console.log(styles)
 
 class Description extends Component {
 
@@ -10,9 +11,9 @@ class Description extends Component {
   render() {
     console.log(this) 
     return (
-      <div className="site-description">
-      <h1 className="site-title">BeBa</h1>
-      	<div className="tagline">
+      <div className={styles.description}>
+      <h1 className={styles.title}>BeBa</h1>
+      	<div className={styles.tagline}>
       		<h2>Design Develop & Code</h2>
       	</div>
       </div>
