@@ -5,8 +5,10 @@ import { render } from 'react-dom';
 import App from './components/App.js';
 import Main from './components/First.js';
 import Header from './components/Header.js';
+import Content from './components/Content.js';
+import Single from './components/Single.js';
 
-console.log(Header)
+console.log(Content)
 
 
 import { Router, Route, IndexRoute, browserHistory} from 'react-router';
@@ -22,8 +24,9 @@ const router = (
 	    <Router history={history}>
 	        <Route path="/" component={App}>
 	            <IndexRoute></IndexRoute>
-	            <Route path="/view/:eventId"></Route>
+	            <Route path="/category/:eventId" component={Single} ></Route>
        	    </Route>
+
  	    </Router>
 	</Provider>
 	)

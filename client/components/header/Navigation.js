@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Header.css';
+import { Link } from 'react-router';
 console.log(styles)
 
 class Navigation extends Component {
@@ -14,22 +15,22 @@ class Navigation extends Component {
       <nav className={styles.navigation}>
        <ul>
        	<li className={styles.writing}>
-       		<a href="./category/writing">Writing</a>
+          <Link to={`/category/todmorden/`}>Todmorden</Link>
        	</li>
        	<li className={styles.notes}>
-       		<a href="./category/speaking">Speaking</a>
+       		<Link to={`/category/huddersfield/`}>Huddersfield</Link>
        	</li>
        	<li className={styles.talks}>
-       		<a href="./category/working">Work</a>
+       		<Link to={`/category/glossop/`}>Glossop</Link>
        	</li>
        	<li className={styles.work}>
-       		<a href="./category/notes">Notes</a>
+       		<Link to={`/category/kendal/`}>Kendal</Link>
        	</li>
        	<li className={styles.about}>
-       		<a href="./about-me/">About</a>
+       		<Link to={`/category/wakefield/`}>Wakefield</Link>
        	</li>
        	<li className={styles.contact}>
-       		<a href="./get-in-touch/">Contact</a>
+       		<Link to={`/category/penrith/`}>Penrith</Link>
        	</li>
        </ul>
       </nav>

@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
+import Header from './Header.js';
+import Content from './Content.js';
+
 
 class Main extends Component {
 
@@ -9,11 +13,14 @@ class Main extends Component {
   render() {
     console.log(this) 
     return (
-      <div className="App">
-       ..
+      <div>
+        <Header/>
+        <Content/>
       </div>
     );
   }
 }
 
 export default Main;
+
+

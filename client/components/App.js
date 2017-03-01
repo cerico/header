@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import * as actionCreators from '../actions/actionCreators.js';
 
 import Header from './Header.js';
+import Content from './Content.js';
+import First from './First.js';
 import css from './App.css';
 
 
@@ -22,6 +24,6 @@ function mapDispatchToProps(dispatch){
 	return bindActionCreators(actionCreators,dispatch)
 }
 
-const App = connect(mapStateToProps, mapDispatchToProps)(Header);
+const App = connect(mapStateToProps, mapDispatchToProps)(First);
 
 export default App;
