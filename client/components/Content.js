@@ -29,7 +29,7 @@ class Content extends Component {
       								WebVisions Chicago                  <em>
       								September 23, 2016 </em>
       							</h2>
-      							<img width="1426" height="1069" src="http://owltastic.com/writing/wp-content/uploads/2016/04/21326532563_f251ced400_h1.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="21326532563_f251ced400_h1" srcset="http://owltastic.com/writing/wp-content/uploads/2016/04/21326532563_f251ced400_h1.jpg 1426w, http://owltastic.com/writing/wp-content/uploads/2016/04/21326532563_f251ced400_h1-300x225.jpg 300w, http://owltastic.com/writing/wp-content/uploads/2016/04/21326532563_f251ced400_h1-768x576.jpg 768w, http://owltastic.com/writing/wp-content/uploads/2016/04/21326532563_f251ced400_h1-1024x768.jpg 1024w" sizes="(max-width: 1426px) 100vw, 1426px"/>            
+      							<img width="1426" height="1069" src="http://owltastic.com/writing/wp-content/uploads/2016/04/21326532563_f251ced400_h1.jpg" className="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="21326532563_f251ced400_h1"  sizes="(max-width: 1426px) 100vw, 1426px"/>            
       						</a>
       						<a href="http://owltastic.com/writing/2016/04/14/webvisions-chicago/ ">
       							<h3>Past Event</h3>
