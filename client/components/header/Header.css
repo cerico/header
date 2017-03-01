@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #fafae8;
+  background-image: url('./img/grey.png');
   color: #4b5052;
   font-family: "abril-text", georgia; 
 }
@@ -20,7 +20,7 @@ a {
 .site-title{
   padding-top:3%;
   padding-left:3%;
-  background:yellow;
+  background-image: url('./img/lightgreen.png')
 }
 
 h1 {
@@ -52,15 +52,15 @@ h1 {
     width: 100%; 
   }
   .site-header .tagline {
-    background: #4b5052;
+    background-image: url('./img/dark.png');
     font-family: "abril-text", georgia;
-    padding: 30px 40px 40px 40px;
+    padding: 40px 40px 40px 40px;
     width: 33.33333333%;
     /* 480/1440 */ 
   }
   .site-header .tagline h2 {
     color: #fafae8;
-    font-size: 18px;
+    font-size: 32px;
     letter-spacing: -.005em;
     line-height: 1.6em; 
   }
@@ -90,27 +90,27 @@ h1 {
     width: 100%; 
   }
   .site-header nav li.writing-link {
-    background: #79c2b2; 
+    background-image: url('./img/midgreen.png');
   }
 
   .site-header nav li.work-link {
-    background: #48a18c; 
+    background-image: url('./img/darkgreen.png');
   }
 
   .site-header nav li.notes-link {
-    background: #d690a0; 
+    background-image: url('./img/lightblue.png')
   }
 
   .site-header nav li.about-link {
-    background: #a2606f; 
+    background-image: url('./img/darkblue.png')
   }
 
   .site-header nav li.talks-link {
-    background: #70777a; 
+    background-image: url('./img/orange.png')
   }
 
   .site-header nav li.contact-link {
-    background: #4b5052; 
+    background-image: url('./img/richguy.png')
   }
 
 
