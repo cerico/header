@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import css from './Change.css';
+import styles from './Change.css';
 
 class Content extends Component {
 
@@ -13,7 +13,7 @@ class Content extends Component {
    showContent(){
     console.log(this.props)
     if (this.props.params.linkId != undefined){
-    return (<div id="content" className="site-content">
+    return (<div id="content" className={styles.content}>
 
 
         <div className="posts-list-notes">
