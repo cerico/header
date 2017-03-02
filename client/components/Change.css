@@ -17,6 +17,62 @@
     height:100%;
   }
 
+  .noteContainer {
+      background: #fafae8;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding-bottom: 5px;
+      -webkit-font-smoothing: antialiased; 
+        padding-bottom: 25px;
+        position: relative; 
+    }
+
+    .talkThumbnail {
+      background: #4b5052;
+      position: relative;
+      height: 100%;
+      display: block;
+      vertical-align: middle; }
+      .talkThumbnail h2 {
+        position: absolute;
+        color: #fafae8;
+        font-family: "playfair display";
+        font-size: 34px;
+        line-height: 1.25em;
+        margin: 0;
+        width: 100%;
+        padding: 0 40px;
+        text-align: center;
+        z-index: 3;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); }
+      .talkThumbnail em {
+        display: block;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: "abril-text", georgia; }
+      .talkThumbnail img {
+        display: block;
+        opacity: .2; }
+      .talkThumbnail:hover img {
+        opacity: 1;
+        -webkit-transition: opacity ease-in-out .2s;
+        -moz-transition: opacity ease-in-out .2s;
+        -o-transition: opacity ease-in-out .2s;
+        transition: opacity ease-in-out .2s; }
+      .talkThumbnail:hover h2 {
+        opacity: 0;
+        -webkit-transition: opacity ease-in-out .2s;
+        -moz-transition: opacity ease-in-out .2s;
+        -o-transition: opacity ease-in-out .2s;
+        transition: opacity ease-in-out .2s; }
+
+    .noteContainer a p {
+      color: #4b5052; }
+    .noteContainer a:hover {
+      color: #d690a0; }
+
 .group:after,
 .group:before,
 .posts-navigation:after,

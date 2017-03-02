@@ -16,26 +16,23 @@ class Event extends Component {
     const img = require(`./img/${town}.jpg`)
     return (
       <div className={styles.notesCol}>
-      <li className={styles.noteItem}>
-
-      <div className="note-container talk-container group past-event">
-      <a href="#" className="talk-thumbnail">
-      <h2>
-      {this.props.name}                 <em>
-      {this.props.date} </em>
-      </h2>
-      <img src={img} className={styles.imagey}/>            
-      </a>
-      <a href="#">
-      <h3>Past Event</h3>
-      </a>
-      <p>{this.props.blurbOne}</p>
-      <p><em>Photo by <a href="#">{this.props.themanager}</a></em>
-      </p>
+        <li className={styles.noteItem}>
+          <div className={styles.noteContainer}>
+            <a href="#" className={styles.talkThumbnail}>
+              <h2>{this.props.name}
+                <em>{this.props.date}</em>
+              </h2>
+              <img src={img} className={styles.imagey}/>            
+            </a>
+            <a href="#">
+              <h3>Past Event</h3>
+            </a>
+            <p>{this.props.blurbOne}</p>
+            <p><em>Photo by <a href="#">{this.props.themanager}</a></em></p>
+          </div>
+        </li>
       </div>
-      </li>
-      </div>
-      );
+    );
   }
 }
 
