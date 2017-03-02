@@ -13,30 +13,16 @@ class Content extends Component {
 
   showContent(){
     console.log(this.props)
-    
-    if (this.props.params.linkId != undefined){
-      return (<div id="content" className={styles.content}>
 
-        {this.props.events.map((event) =>  <Event key={event.name} {...event} />)}
-
-
-
-        <div className="notes-navigation">
-        </div>
-
-
-
-        </div>)
-    }else{
       return(
-        <div id="content" className="site-content"></div>
+        <div id="content" className={styles.theBackground}>yes</div>
         )
-    }
   }
 
   render() {
     console.log(this)
     console.log(this.props.yes) 
+
 
     return(
       this.showContent()

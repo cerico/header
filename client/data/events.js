@@ -28,6 +28,7 @@ const events =
        date: "26th Dec",
        themanager: "Barry Bolton",
        key:3,
+       blurbOne: "There has been a ground at Bower Fold since 1906. The current main stand was built in 1996, with the covered stand at the Town End (Joe Jackson Stand) dating from 1994. The main stand, replaced a wooden one dating from 1909, which held 500 fans, before being converted to tip-up seating with a reduced capacity of around 400 persons.",
        eventColourScheme:'event-colour-three',
       secondaryColourText: 'event-secondary-three'},
 
@@ -36,6 +37,7 @@ const events =
        date: "29th Dec",
        themanager: "Emily Harrison",
        key:4,
+       blurbOne: "There has been a ground at Bower Fold since 1906. The current main stand was built in 1996, with the covered stand at the Town End (Joe Jackson Stand) dating from 1994. The main stand, replaced a wooden one dating from 1909, which held 500 fans, before being converted to tip-up seating with a reduced capacity of around 400 persons.",
        eventColourScheme:'event-colour-four',
       secondaryColourText: 'event-secondary-four'},   
       ,  {
@@ -43,6 +45,7 @@ const events =
              date: "30th Dec",
              themanager: "Donal Stewart",
              key:6,
+             blurbOne: "There has been a ground at Bower Fold since 1906. The current main stand was built in 1996, with the covered stand at the Town End (Joe Jackson Stand) dating from 1994. The main stand, replaced a wooden one dating from 1909, which held 500 fans, before being converted to tip-up seating with a reduced capacity of around 400 persons.",
              eventColourScheme:'event-colour-six',
             secondaryColourText: 'event-secondary-six'},
             ,  {
@@ -50,6 +53,7 @@ const events =
                    date: "31st Dec",
                    themanager: "Larry Conrad",
                    key:7,
+                   blurbOne: "There has been a ground at Bower Fold since 1906. The current main stand was built in 1996, with the covered stand at the Town End (Joe Jackson Stand) dating from 1994. The main stand, replaced a wooden one dating from 1909, which held 500 fans, before being converted to tip-up seating with a reduced capacity of around 400 persons.",
                    eventColourScheme:'event-colour-five',
                   secondaryColourText: 'event-secondary-five'}]
 

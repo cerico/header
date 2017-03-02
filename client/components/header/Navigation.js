@@ -15,7 +15,7 @@ class Navigation extends Component {
       <nav className={styles.navigation}>
        <ul>
        	<li className={styles.writing}>
-          <Link to={`/category/events/`}>events</Link>
+          <Link to={`/events/`}>events</Link>
        	</li>
        	<li className={styles.notes}>
        		<Link to={`/category/writing/`}>writing</Link>

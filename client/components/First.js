@@ -12,12 +12,11 @@ class Main extends Component {
    }
 
   render() {
-    console.log(this) 
     const no = "love it"
     return (
       <div>
         <Header/>
-        <Content {...this.props}/>
+        {React.cloneElement(this.props.children, this.props)}
       </div>
     );
   }
