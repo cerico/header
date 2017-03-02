@@ -121,7 +121,7 @@
                     visibility: hidden; }
 
                     body {
-                      background: blue;
+                      background-image: url('./header/img/grey.png');
                       color: #4b5052;
                       font-family: "abril-text", georgia; }
 
