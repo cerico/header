@@ -15,22 +15,22 @@ class Navigation extends Component {
       <nav className={styles.navigation}>
        <ul>
        	<li className={styles.writing}>
-          <Link to={`/category/todmorden/`}>Todmorden</Link>
+          <Link to={`/category/events/`}>events</Link>
        	</li>
        	<li className={styles.notes}>
-       		<Link to={`/category/huddersfield/`}>Huddersfield</Link>
+       		<Link to={`/category/writing/`}>writing</Link>
        	</li>
        	<li className={styles.talks}>
-       		<Link to={`/category/glossop/`}>Glossop</Link>
+       		<Link to={`/category/workshops/`}>workshops</Link>
        	</li>
        	<li className={styles.work}>
-       		<Link to={`/category/kendal/`}>Kendal</Link>
+       		<Link to={`/category/about/`}>about</Link>
        	</li>
        	<li className={styles.about}>
-       		<Link to={`/category/wakefield/`}>Wakefield</Link>
+       		<Link to={`/category/consulting/`}>consulting</Link>
        	</li>
        	<li className={styles.contact}>
-       		<Link to={`/category/penrith/`}>Penrith</Link>
+       		<Link to={`/category/fieldwork/`}>fieldwork</Link>
        	</li>
        </ul>
       </nav>

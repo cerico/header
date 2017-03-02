@@ -2,7 +2,7 @@ const events =
 
  
    [{
-      name: "Stalybridge",
+      name: "stalybridge",
     date: "23rd Dec",
     themanager: "Mildred Wythenshaw",
     address: "Bower Fold, Mottram Rd, Stalybridge SK15 2RT, UK",
@@ -13,7 +13,7 @@ const events =
    secondaryColourText: 'event-secondary-one'},
 
    {
-      name: "Colne",
+      name: "colne",
     date: "24th Dec",
     key:2,
     themanager: "Paul Haltwistle",
@@ -24,7 +24,7 @@ const events =
    secondaryColourText: 'event-secondary-two'},
 
       {
-         name: "Bacup",
+         name: "kendal",
        date: "26th Dec",
        themanager: "Barry Bolton",
        key:3,
@@ -32,27 +32,21 @@ const events =
       secondaryColourText: 'event-secondary-three'},
 
       {
-         name: "Brighouse",
+         name: "todmorden",
        date: "29th Dec",
        themanager: "Emily Harrison",
        key:4,
        eventColourScheme:'event-colour-four',
-      secondaryColourText: 'event-secondary-four'},   {
-         name: "Tow Law",
-       date: "30th Dec",
-       themanager: "Rowan Hewitt",
-       key:5,
-       eventColourScheme:'event-colour-five',
-      secondaryColourText: 'event-secondary-five'},
+      secondaryColourText: 'event-secondary-four'},   
       ,  {
-               name: "Glossop",
+               name: "glossop",
              date: "30th Dec",
              themanager: "Donal Stewart",
              key:6,
              eventColourScheme:'event-colour-six',
             secondaryColourText: 'event-secondary-six'},
             ,  {
-                     name: "Morecambe",
+                     name: "morecambe",
                    date: "31st Dec",
                    themanager: "Larry Conrad",
                    key:7,
