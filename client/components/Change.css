@@ -5,6 +5,18 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+  .notesCol{
+    width: 33.333%; 
+    padding: 50px 0 0 50px;
+    float: left;
+
+  }
+
+  .imagey{
+    width:100%;
+    height:100%;
+  }
+
 .group:after,
 .group:before,
 .posts-navigation:after,
@@ -676,7 +688,7 @@ h1 {
         display: block;
         margin: 30px auto 0 auto; }
 
-.posts-list-notes {
+.postsListNotes {
   box-shadow: inset 0 5px 50px rgba(0, 0, 0, 0.05);
   background: -moz-linear-gradient(left, rgba(121, 194, 178, 0.8) 0%, rgba(194, 174, 121, 0.8) 50%, rgba(241, 176, 191, 0.8) 100%);
   background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(121, 194, 178, 0.8)), color-stop(50%, rgba(194, 174, 121, 0.8)), color-stop(100%, rgba(241, 176, 191, 0.8)));
@@ -686,21 +698,21 @@ h1 {
   background: linear-gradient(to right, rgba(121, 194, 178, 0.8) 0%, rgba(194, 174, 121, 0.8) 50%, rgba(241, 176, 191, 0.8) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc79c2b2', endColorstr='#ccf1b0bf',GradientType=1 );
   padding: 0 50px 50px 0; }
-  .posts-list-notes h1 {
+  .postsListNotes h1 {
     color: #fafae8;
     margin: 0;
     text-align: left; }
-  .posts-list-notes .note-item {
+  .postsListNotes .noteItem {
     padding-bottom: 50px; }
-  .posts-list-notes .page-title.note-item p {
+  .postsListNotes .page-title.noteItem p {
     color: #fafae8;
     margin: 0;
     font-size: 20px;
     -webkit-font-smoothing: antialiased;
     margin-top: 20px; }
-    .posts-list-notes .page-title.note-item p a {
+    .postsListNotes .page-title.noteItem p a {
       color: #ffe59c; }
-  .posts-list-notes h2 {
+  .postsListNotes h2 {
     -webkit-font-smoothing: antialiased;
     font-family: "abril-text", georgia;
     font-size: 20px;
@@ -708,27 +720,27 @@ h1 {
     line-height: 1.4em;
     margin: 30px 40px 0 40px;
     text-align: left; }
-  .posts-list-notes ul {
+  .postsListNotes ul {
     margin: 0; }
-  .posts-list-notes li img {
+  .postsListNotes li img {
     height: auto;
     width: 100%; }
-  .posts-list-notes li a {
+  .postsListNotes li a {
     color: #48a18c; }
-  .posts-list-notes .note-container {
+  .postsListNotes .note-container {
     background: #fafae8;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding-bottom: 5px;
     -webkit-font-smoothing: antialiased; }
-  .posts-list-notes li:nth-of-type(odd) .talk-thumbnail {
+  .postsListNotes li:nth-of-type(odd) .talk-thumbnail {
     background: #4b5052; }
-  .posts-list-notes .talk-thumbnail {
+  .postsListNotes .talk-thumbnail {
     background: #4b5052;
     position: relative;
     height: 100%;
     display: block;
     vertical-align: middle; }
-    .posts-list-notes .talk-thumbnail h2 {
+    .postsListNotes .talk-thumbnail h2 {
       position: absolute;
       color: #fafae8;
       font-family: "playfair display";
@@ -742,35 +754,35 @@ h1 {
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
-    .posts-list-notes .talk-thumbnail em {
+    .postsListNotes .talk-thumbnail em {
       display: block;
       font-style: normal;
       font-size: 16px;
       font-weight: normal;
       font-family: "abril-text", georgia; }
-    .posts-list-notes .talk-thumbnail img {
+    .postsListNotes .talk-thumbnail img {
       display: block;
       opacity: .2; }
-    .posts-list-notes .talk-thumbnail:hover img {
+    .postsListNotes .talk-thumbnail:hover img {
       opacity: 1;
       -webkit-transition: opacity ease-in-out .2s;
       -moz-transition: opacity ease-in-out .2s;
       -o-transition: opacity ease-in-out .2s;
       transition: opacity ease-in-out .2s; }
-    .posts-list-notes .talk-thumbnail:hover h2 {
+    .postsListNotes .talk-thumbnail:hover h2 {
       opacity: 0;
       -webkit-transition: opacity ease-in-out .2s;
       -moz-transition: opacity ease-in-out .2s;
       -o-transition: opacity ease-in-out .2s;
       transition: opacity ease-in-out .2s; }
-  .posts-list-notes .talk-container {
+  .postsListNotes .talk-container {
     padding-bottom: 25px;
     position: relative; }
-    .posts-list-notes .talk-container a p {
+    .postsListNotes .talk-container a p {
       color: #4b5052; }
-    .posts-list-notes .talk-container a:hover {
+    .postsListNotes .talk-container a:hover {
       color: #d690a0; }
-    .posts-list-notes .talk-container h3 {
+    .postsListNotes .talk-container h3 {
       -webkit-font-smoothing: antialiased;
       font-family: "Source Sans Pro";
       font-size: 13px;
@@ -778,27 +790,27 @@ h1 {
       letter-spacing: .08em;
       text-transform: uppercase;
       margin: 40px 40px -30px 40px; }
-    .posts-list-notes .talk-container .upcoming-event {
+    .postsListNotes .talk-container .upcoming-event {
       color: #d8c287; }
-    .posts-list-notes .talk-container p em {
+    .postsListNotes .talk-container p em {
       font-size: 14px;
       font-style: italic;
       margin: 10px 0 0 0; }
-    .posts-list-notes .talk-container p {
+    .postsListNotes .talk-container p {
       margin: 40px 40px 10px 40px; }
-      .posts-list-notes .talk-container p:nth-of-type(2) {
+      .postsListNotes .talk-container p:nth-of-type(2) {
         margin-top: 0; }
-  .posts-list-notes p {
+  .postsListNotes p {
     line-height: 1.5em;
     margin: 5px 40px 30px 40px; }
-  .posts-list-notes .tagged {
+  .postsListNotes .tagged {
     -webkit-font-smoothing: antialiased;
     font-family: "Source Sans Pro";
     font-size: 13px;
     font-weight: 700;
     letter-spacing: .08em;
     text-transform: uppercase; }
-    .posts-list-notes .tagged a {
+    .postsListNotes .tagged a {
       color: #d690a0; }
 
 .notes-grid[data-columns]::before {
@@ -813,6 +825,8 @@ h1 {
 .notes-column {
   padding: 50px 0 0 50px;
   float: left; }
+
+
 
 .size-1of3 {
   width: 33.333%; }
@@ -1626,7 +1640,7 @@ h3.comment-reply-title {
     .about-content .work-experience:after {
       left: 92px; } }
 @media screen and (max-width: 775px) {
-  .posts-list-notes h1 {
+  .postsListNotes h1 {
     font-size: 40px; } }
 @media screen and (max-width: 960px) and (min-width: 700px) {
   .site-header nav {
@@ -1855,7 +1869,7 @@ h3.comment-reply-title {
   .posts-navigation .nav-previous {
     margin-top: 50px; }
 
-  .posts-list-notes h1 {
+  .postsListNotes h1 {
     text-align: center; } }
 @media screen and (max-width: 680px) {
   .profile-image {
@@ -1944,9 +1958,9 @@ h3.comment-reply-title {
   .notes li .note-description {
     display: block; }
 
-  .posts-list-notes {
+  .postsListNotes {
     padding-right: 30px; }
-    .posts-list-notes .note-item {
+    .postsListNotes .noteItem {
       padding: 30px 0 0 30px; }
 
   .about-content .featured-banner h1 {
