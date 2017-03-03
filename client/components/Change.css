@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(./reset.css);
+@import url(./responsive.css);
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -158,3 +159,20 @@
 
                       a {
                         text-decoration: none; }
+
+
+                        @media screen and (max-width: 960px) {
+                          .notesCol{
+                            width: 50%; 
+                          }
+                        } 
+
+
+
+                        @media screen and (max-width: 700px) {
+                          .notesCol{
+                            width: 100%; 
+                          }
+
+
+                        }
