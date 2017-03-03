@@ -20,7 +20,7 @@ class Work extends Component {
       return (
         <div id="content" className={styles.events}>
           <ul className={styles.list}>
-            {this.props.events.map((event) =>  <Event key={event.name} {...event} />)}
+            {this.props.skills.map((skill) =>  <Event key={skill.name} {...skill} />)}
           </ul>
 
         <BodyColor bodyColour={styles.writingBody}/>

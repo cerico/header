@@ -12,6 +12,7 @@ class Event extends Component {
   }
 
   render() {
+    console.log(this.props)
     const town = this.props.name.toLowerCase()
     const img = require(`./img/${town}.jpg`)
     return (

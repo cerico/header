@@ -5,11 +5,13 @@ import { browserHistory } from 'react-router';
 import rootReducer from './reducers/index.js';
 
 import events from './data/events.js';
+import skills from './data/skills.js';
 
 console.log(rootReducer)
 
 const defaultState = {
 	events,
+	skills,
 	event,
 };
 

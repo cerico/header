@@ -17,7 +17,8 @@ function mapStateToProps(state){
 		comments: state.comments,
 		events: state.events,
 		event: state.event,
-		underline: state.underline
+		underline: state.underline,
+		skills:state.skills
 	}
 }
 
