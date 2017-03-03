@@ -16,7 +16,8 @@ function mapStateToProps(state){
 		posts: state.posts,
 		comments: state.comments,
 		events: state.events,
-		event: state.event
+		event: state.event,
+		underline: state.underline
 	}
 }
 

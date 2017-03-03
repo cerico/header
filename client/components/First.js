@@ -16,7 +16,7 @@ class Main extends Component {
     const no = "love it"
     return (
       <div className={styles.container}>
-        <Header/>
+        <Header {...this.props} />
         {React.cloneElement(this.props.children, this.props)}
         </div>
     );

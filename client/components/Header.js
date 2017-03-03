@@ -15,7 +15,7 @@ class Header extends Component {
     return (
       <div className={styles.header}>
        <Description/>
-       <Navigation/>
+       <Navigation underline={this.props.underline} addActiveBorder={this.props.addActiveBorder}/>
       </div>
     );
   }

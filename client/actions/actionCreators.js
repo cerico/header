@@ -14,3 +14,10 @@ export function closeEvent(){
   	event,
   }
 }
+
+export function addActiveBorder(event){
+  return {
+    type: "ADD_ACTIVE_BORDER",
+    event,
+  }
+}

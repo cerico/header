@@ -10,7 +10,7 @@ console.log(rootReducer)
 
 const defaultState = {
 	events,
-	event
+	event,
 };
 
 console.log(defaultState)

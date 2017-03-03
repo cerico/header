@@ -54,6 +54,7 @@ h1 {
   width: 100%; 
 }
 .header .tagline {
+  box-shadow: inset -96px 0 198px -48px #f7eded;
   background-image: url('./img/dark.png');
   font-family: "abril-text", georgia;
   padding: 40px 40px 40px 40px;
@@ -90,16 +91,28 @@ h1 {
   vertical-align: middle;
   width: 100%; 
 }
-.header nav li.writing {
+.header nav li.events {
   background-image: url('./img/midgreen.png');
 }
 
 .header nav li.work {
+  /*box-shadow: inset -10px 0 79px -5px #f7eded;*/
   background-image: url('./img/darkgreen.png');
 }
 
 .header nav li.notes {
+  /*box-shadow: inset -10px 0 79px -5px #f7eded;*/
   background-image: url('./img/lightblue.png')
+}
+
+
+
+.header nav * a:hover {
+  box-shadow: inset -10px 0 79px -5px #f7eded;
+}
+
+.active{
+  box-shadow: inset 0px -12px 0px -7px #fafae8
 }
 
 .header nav li.about {
