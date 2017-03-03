@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import url(./reset.css);
+@import url(./responsive.css);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+  .notesCol{
+    width: 33.333%; 
+    padding: 50px 0 0 50px;
+    float: left;
+
+  }
+
+  .list{
+    list-style:none;
+    margin:0 auto;
+    padding: 0 50px 50px 0;
+  }
+
+  .theBackground{
+    background-image: url('./header/img/midgreen.png');
+  }
+
+  .imagey{
+    width:100%;
+    max-height:222px;
+  }
+
+  .tabletWords{
+    margin: 40px 40px 10px 40px;
+    line-height: 1.5em;
+  }
+
+  html {height:100%; margin:0; 
+  padding:0;}
+
+  .eventsBody{
+    background-image: url('./header/img/midgreen.png');
+    }
+
+   .writingBody{
+     background-image: url('./header/img/darkgreen.png');
+     }
+
+     .aboutBody{
+       background-image: url('./header/img/darkblue.png');
+       }
+
+       .workshopsBody{
+         background-image: url('./header/img/grey7.png');
+         }
+
+         .fieldworkBody{
+           background-image: url('./header/img/grey6.png');
+           }
+
+           .consultingBody{
+             background-image: url('./header/img/lightblue.png');
+             }
+
+             .frontBody{
+              box-shadow: inset -10px 0 79px -5px #f7eded;
+               background-image: url('./header/img/lightblue.png');
+               }
+
+  .tabletTitle{
+    -webkit-font-smoothing: antialiased;
+    font-family: "Source Sans Pro";
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin: 40px 40px -30px 40px;
+  }
+
+  .noteContainer {
+    background: #fafae8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+    -webkit-font-smoothing: antialiased; 
+    padding-bottom: 25px;
+    position: relative; 
+    min-height:580px;
+  }
+
+  .content{
+    padding: 0 50px 50px 0;
+  }
+
+  .talkThumbnail {
+    background: #4b5052;
+    position: relative;
+    height: 100%;
+    display: block;
+    vertical-align: middle; }
+    .talkThumbnail h2 {
+
+      position: absolute;
+      color: #fafae8;
+      font-family: "playfair display";
+      font-size: 34px;
+      line-height: 1.25em;
+      margin: 0;
+      width: 100%;
+      padding: 0 40px;
+      text-align: center;
+      z-index: 3;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); }
+      .talkThumbnail h2:first-letter {
+          text-transform:capitalize;
+      }
+      .talkThumbnail em {
+        display: block;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: "abril-text", georgia; }
+        .talkThumbnail img {
+          display: block;
+          opacity: .2; }
+          .talkThumbnail:hover img {
+            opacity: 1;
+            -webkit-transition: opacity ease-in-out .2s;
+            -moz-transition: opacity ease-in-out .2s;
+            -o-transition: opacity ease-in-out .2s;
+            transition: opacity ease-in-out .2s; }
+            .talkThumbnail:hover h2 {
+              opacity: 0;
+              -webkit-transition: opacity ease-in-out .2s;
+              -moz-transition: opacity ease-in-out .2s;
+              -o-transition: opacity ease-in-out .2s;
+              transition: opacity ease-in-out .2s; }
+
+              .noteContainer a p {
+                color: #4b5052; }
+                .noteContainer a:hover {
+                  color: #d690a0; }
+
+                  .group:after,
+                  .group:before,
+                  .posts-navigation:after,
+                  .posts-navigation:before,
+                  .post-navigation:after,
+                  .post-navigation:before,
+                  .nav-links:before,
+                  .nav-links:after {
+                    content: ".";
+                    display: block;
+                    height: 0;
+                    clear: both;
+                    visibility: hidden; }
+
+
+
+                    body {
+                     height:100%;
+                 margin:0; 
+
+                  padding:0;
+                      color: #4b5052;
+                      font-family: "abril-text", georgia; }
+
+                      a {
+                        text-decoration: none; }
+
+
+                        @media screen and (max-width: 960px) {
+                          .notesCol{
+                            width: 50%; 
+                          }
+                        } 
+
+
+
+                        @media screen and (max-width: 700px) {
+                          .notesCol{
+                            width: 100%; 
+                          }
+
+
+                        }

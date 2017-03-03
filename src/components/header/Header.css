@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import url(./reset.css);
+@import url(./responsive.css);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+body {
+  /*background-image: url('./img/grey.png');*/
+  color: #4b5052;
+  font-family: "abril-text", georgia; 
+}
+
+
+
+a {
+  text-decoration: none; 
+}
+
+.title{
+  padding-top:3%;
+  padding-left:3%;
+  font-family: pacifico;
+  font-size: 261%;
+  background-image: url('./img/sandy.png')
+}
+
+h1 {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+  line-height: 1.2em;
+  font-size: 50px;
+  font-weight: 900; 
+}
+
+.header {
+  -webkit-font-smoothing: antialiased;
+  background: #fafae8; 
+}
+.header h1, .header .tagline, .header nav {
+  height: 160px;
+  float: left; 
+}
+.header h1 {
+  width: 16.66666667%;
+}
+.header h1 a {
+  background-size: 218px 164px;
+  display: block;
+  height: 150px;
+  padding: 80px 40px;
+  text-indent: -9999px;
+  width: 100%; 
+}
+.header .tagline {
+  box-shadow: inset -96px 0 198px -48px #f7eded;
+  background-image: url('./img/dark.png');
+  font-family: "abril-text", georgia;
+  padding: 40px 40px 40px 40px;
+  width: calc(100% / 3);
+}
+.header .tagline h2 {
+  color: #fafae8;
+  font-size: 32px;
+  letter-spacing: -.005em;
+  line-height: 1.6em; 
+}
+
+.header nav {
+  background: #4b5052;
+  width: 50%; 
+}
+.header nav li {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Source Sans Pro";
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  display: table;
+  table-layout: fixed;
+  float: left;
+  width: calc(100% / 3); 
+}
+.header nav li a {
+  color: #fafae8;
+  display: table-cell;
+  height: 80px;
+  padding: 0 40px;
+  vertical-align: middle;
+  width: 100%; 
+}
+.header nav li.events {
+  background-image: url('./img/midgreen.png');
+}
+
+.header nav li.work {
+  /*box-shadow: inset -10px 0 79px -5px #f7eded;*/
+  background-image: url('./img/darkgreen.png');
+}
+
+.header nav li.notes {
+  /*box-shadow: inset -10px 0 79px -5px #f7eded;*/
+  background-image: url('./img/lightblue.png')
+}
+
+
+
+.header nav * a:hover {
+  box-shadow: inset -10px 0 79px -5px #f7eded;
+}
+
+.active{
+  box-shadow: inset 0px -12px 0px -7px #fafae8
+}
+
+.header nav li.about {
+  background-image: url('./img/darkblue.png')
+}
+
+.header nav li.talks {
+  background-image: url('./img/grey7.png')
+}
+
+.header nav li.contact {
+  background-image: url('./img/grey6.png')
+}
+
+@media screen and (max-width: 960px) {
+  .header h1 {
+    height: 125px !important;
+    width: 16.6% !important; 
+  }
+  .header h1 a {
+    height: 125px !important;
+    padding: 20px 40px; 
+  }
+  .header .tagline {
+    height: 125px !important;
+    width: 83.4% !important; 
+  }
+  .header .tagline h2 {
+    font-size: 18px;
+    line-height: 1.6em; 
+  }
+  .header nav {
+    background: #b17a86;
+    height: auto !important;
+    width: 100% !important;
+  }
+  .header nav li {
+    width:16.6666666667% !important;
+  }
+} 
+
+
+
+@media screen and (max-width: 700px) {
+
+
+
+  .header nav {
+    height: auto !important;
+    width: 100% !important; 
+  }
+  .header nav li {
+    width:33.333333% !important;
+  }
+  .header nav li a {
+    height: auto !important;
+    padding: 20px !important;
+    text-align: center !important; 
+  }
+  .header .description {
+    position: relative !important; 
+  }
+  .header .description:after, .header .description:before {
+    content: "." !important;
+    display: block !important;
+    height: 0 !important;
+    clear: both !important;
+    visibility: hidden !important; 
+  }
+  .header h1 {
+    position: absolute !important;
+    height: 100% !important;
+    width: 33.33333333% !important; 
+    padding-top:8% !important;
+    font-size: 44px !important;
+  }
+  .header h1 a {
+    height: 100% !important;
+    left: 0 !important;
+    position: absolute !important; 
+  }
+  .header .tagline {
+    height: auto !important;
+    left: 33.33333% !important;
+    position: relative !important;
+    width: 66.66666667% !important; 
+  }
+  .header .tagline p {
+    font-size: 16px !important; 
+  }
+}
