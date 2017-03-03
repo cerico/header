@@ -12,7 +12,7 @@ class Description extends Component {
     console.log(this) 
     return (
       <div className={styles.description}>
-      <h1 className={styles.title}>BeBa</h1>
+      <h1 className={styles.title}></h1>
       	<div className={styles.tagline}>
       		<h2>Design Develop & Code</h2>
       	</div>

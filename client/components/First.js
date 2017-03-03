@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import Header from './Header.js';
 import Content from './Content.js';
+import styles from './Change.css';
 
 
 class Main extends Component {
@@ -14,10 +15,10 @@ class Main extends Component {
   render() {
     const no = "love it"
     return (
-      <div>
+      <div className={styles.container}>
         <Header/>
         {React.cloneElement(this.props.children, this.props)}
-      </div>
+        </div>
     );
   }
 }

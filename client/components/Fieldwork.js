@@ -5,7 +5,7 @@ import Event from './Event.js';
 import BodyColor from './Body.js';
 console.log(BodyColor)
 
-class Events extends Component {
+class Fieldwork extends Component {
 
   constructor(props) {
     super();
@@ -24,7 +24,7 @@ class Events extends Component {
           </ul>
         <div className="notes-navigation">
         </div>
-        <BodyColor bodyColour={styles.eventsBody}/>
+        <BodyColor bodyColour={styles.fieldworkBody}/>
 
 
 
@@ -42,4 +42,4 @@ class Events extends Component {
   }
 }
 
-export default Events;
+export default Fieldwork;

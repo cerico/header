@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import styles from './Change.css';
 import Event from './Event.js';
+const classNames = require('classnames');
 
 class Content extends Component {
 

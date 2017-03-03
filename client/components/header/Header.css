@@ -8,10 +8,12 @@
 }
 
 body {
-  background-image: url('./img/grey.png');
+  /*background-image: url('./img/grey.png');*/
   color: #4b5052;
   font-family: "abril-text", georgia; 
 }
+
+
 
 a {
   text-decoration: none; 
@@ -20,7 +22,7 @@ a {
 .title{
   padding-top:3%;
   padding-left:3%;
-  background-image: url('./img/lightgreen.png')
+  background-image: url('./img/beba.png')
 }
 
 h1 {
@@ -105,11 +107,11 @@ h1 {
 }
 
 .header nav li.talks {
-  background-image: url('./img/orange.png')
+  background-image: url('./img/grey7.png')
 }
 
 .header nav li.contact {
-  background-image: url('./img/richguy.png')
+  background-image: url('./img/grey6.png')
 }
 
 @media screen and (max-width: 960px) {
