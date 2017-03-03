@@ -25,7 +25,7 @@ class Event extends Component {
               </h2>
               <img src={img} className={styles.imagey}/>            
             </a>
-            <h3 className={styles.tabletTitle}>Past Event</h3>
+            <h3 className={styles.tabletTitle}>Title</h3>
             <p className={styles.tabletWords}>{this.props.blurbOne}</p>
           </div>
         </li>
