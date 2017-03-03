@@ -96,6 +96,7 @@
     display: block;
     vertical-align: middle; }
     .talkThumbnail h2 {
+
       position: absolute;
       color: #fafae8;
       font-family: "playfair display";
@@ -109,6 +110,9 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
+      .talkThumbnail h2:first-letter {
+          text-transform:capitalize;
+      }
       .talkThumbnail em {
         display: block;
         font-style: normal;
