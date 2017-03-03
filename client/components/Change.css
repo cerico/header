@@ -19,7 +19,7 @@
   }
 
   .theBackground{
-    background:;
+    background-image: url('./header/img/midgreen.png');
   }
 
   .imagey{
@@ -58,6 +58,11 @@
            .consultingBody{
              background-image: url('./header/img/lightblue.png');
              }
+
+             .frontBody{
+              box-shadow: inset -10px 0 79px -5px #f7eded;
+               background-image: url('./header/img/lightblue.png');
+               }
 
   .tabletTitle{
     -webkit-font-smoothing: antialiased;
@@ -143,10 +148,7 @@
                     height: 0;
                     clear: both;
                     visibility: hidden; }
-.events{
-  padding: 0 50px 50px 0;
-  background-image: url('./header/img/events.png');
-}
+
 
 
                     body {

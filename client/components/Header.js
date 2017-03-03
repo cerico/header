@@ -12,10 +12,11 @@ class Header extends Component {
 
   render() {
     console.log(this) 
+    const active = this.props.routes[1].path
     return (
       <div className={styles.header}>
        <Description/>
-       <Navigation underline={this.props.underline} addActiveBorder={this.props.addActiveBorder}/>
+       <Navigation underline={active} addActiveBorder={this.props.addActiveBorder}/>
       </div>
     );
   }

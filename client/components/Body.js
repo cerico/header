@@ -14,14 +14,7 @@ class BodyColor extends Component {
     console.log(this.props.bodyColour)
     document.body.classList = this.props.bodyColour
   }
-  componentWillReceiveProps(nextProps) {
-    console.log(this.props.bodyColour)
-    document.body.classList.toggle('darkClass', nextProps.isDark)
-  }
-  componentWillUnmount() {
-    console.log(this.props.bodyColour)
-    document.body.classList.remove('darkClass')
-  }
+
 
   render() {
     console.log(this.props)
@@ -36,7 +29,7 @@ BodyColor.propTypes = {
   bodyColour: React.PropTypes.string
 }
 BodyColor.defaultProps = {
-  bodyColour: "green"
+  bodyColour: "frontBody"
 }
 
 export default BodyColor;

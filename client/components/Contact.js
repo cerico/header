@@ -13,10 +13,7 @@ class Contact extends Component {
 
   }
 
-  showContent(){
-    console.log(this.props)
-    console.log(this.props.params)
-   
+  showContent(){   
       return (
         <div id="content" className={styles.events}>
           <ul className={styles.list}>
@@ -25,10 +22,8 @@ class Contact extends Component {
         <div className="notes-navigation">
         </div>
         <BodyColor bodyColour={styles.fieldworkBody}/>
-
-
-
-        </div>)
+        </div>
+        )
   }
 
   render() {

@@ -22,7 +22,9 @@ a {
 .title{
   padding-top:3%;
   padding-left:3%;
-  background-image: url('./img/beba.png')
+  font-family: pacifico;
+  font-size: 261%;
+  background-image: url('./img/sandy.png')
 }
 
 h1 {

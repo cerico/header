@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import styles from './Change.css';
 import Event from './Event.js';
-const classNames = require('classnames');
+import BodyColor from './Body.js';
+
 
 class Content extends Component {
 
@@ -16,7 +17,8 @@ class Content extends Component {
     console.log(this.props)
 
       return(
-        <div id="content" className={styles.theBackground}>yes</div>
+        <div id="content">We believe in building self-sustaining, purposeful products. We tend to build products that scratch our itch, products that we want to exist in this world. As users ourselves, we care deeply about the user experience and building products that last.
+        <BodyColor bodyColour={styles.frontBody}/></div>
         )
   }
 
