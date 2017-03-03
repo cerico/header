@@ -5,7 +5,7 @@ import Event from './Event.js';
 import BodyColor from './Body.js';
 console.log(BodyColor)
 
-class Writing extends Component {
+class Contact extends Component {
 
   constructor(props) {
     super();
@@ -22,14 +22,13 @@ class Writing extends Component {
           <ul className={styles.list}>
             {this.props.events.map((event) =>  <Event key={event.name} {...event} />)}
           </ul>
-
-        <BodyColor bodyColour={styles.writingBody}/>
+        <div className="notes-navigation">
         </div>
-        )
+        <BodyColor bodyColour={styles.fieldworkBody}/>
 
 
 
-       
+        </div>)
   }
 
   render() {
@@ -43,4 +42,4 @@ class Writing extends Component {
   }
 }
 
-export default Writing;
+export default Contact;

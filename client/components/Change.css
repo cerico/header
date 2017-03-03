@@ -39,11 +39,11 @@
     }
 
    .writingBody{
-     background-image: url('./header/img/lightblue.png');
+     background-image: url('./header/img/darkgreen.png');
      }
 
      .aboutBody{
-       background-image: url('./header/img/darkgreen.png');
+       background-image: url('./header/img/darkblue.png');
        }
 
        .workshopsBody{
@@ -55,7 +55,7 @@
            }
 
            .consultingBody{
-             background-image: url('./header/img/darkblue.png');
+             background-image: url('./header/img/lightblue.png');
              }
 
   .tabletTitle{

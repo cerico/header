@@ -8,11 +8,11 @@ import Header from './components/Header.js';
 import Content from './components/Content.js';
 import Events from './components/Events.js';
 import Single from './components/Single.js';
-import Writing from './components/Writing.js';
+import Work from './components/Work.js';
 import About from './components/About.js';
-import Consulting from './components/Consulting.js';
-import Fieldwork from './components/Fieldwork.js';
-import Workshops from './components/Workshops.js';
+import Notes from './components/Notes.js';
+import Contact from './components/Contact.js';
+import Talks from './components/Talks.js';
 
 console.log(Content)
 
@@ -31,11 +31,11 @@ const router = (
 	        <Route path="/" component={App}>
 	            <IndexRoute component={Content}></IndexRoute>
 	            <Route path="events" component={Events} ></Route>
-	            <Route path="writing" component={Writing} ></Route>
+	            <Route path="work" component={Work} ></Route>
 	            <Route path="about" component={About} ></Route>
-	            <Route path="consulting" component={Consulting} ></Route>
-	            <Route path="workshops" component={Workshops} ></Route>
-	            <Route path="fieldwork" component={Fieldwork} ></Route>
+	            <Route path="notes" component={Notes} ></Route>
+	            <Route path="talks" component={Talks} ></Route>
+	            <Route path="contact" component={Contact} ></Route>
 	            <Route path="/category/:linkId" component={Content} ></Route>
 </Route>
  	    </Router>

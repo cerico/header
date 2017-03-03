@@ -5,7 +5,7 @@ import Event from './Event.js';
 import BodyColor from './Body.js';
 console.log(BodyColor)
 
-class Consulting extends Component {
+class Talks extends Component {
 
   constructor(props) {
     super();
@@ -24,7 +24,7 @@ class Consulting extends Component {
           </ul>
         <div className="notes-navigation">
         </div>
-        <BodyColor bodyColour={styles.consultingBody}/>
+        <BodyColor bodyColour={styles.workshopsBody}/>
 
 
 
@@ -42,4 +42,4 @@ class Consulting extends Component {
   }
 }
 
-export default Consulting;
+export default Talks;
