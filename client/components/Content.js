@@ -17,7 +17,7 @@ class Content extends Component {
     console.log(this.props)
 
       return(
-        <div id="content">We believe in building self-sustaining, purposeful products. We tend to build products that scratch our itch, products that we want to exist in this world. As users ourselves, we care deeply about the user experience and building products that last.
+        <div id="content">
         <BodyColor bodyColour={styles.frontBody}/></div>
         )
   }
