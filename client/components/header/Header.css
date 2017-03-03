@@ -57,7 +57,7 @@ h1 {
   background-image: url('./img/dark.png');
   font-family: "abril-text", georgia;
   padding: 40px 40px 40px 40px;
-  width: 33.33333333%;
+  width: calc(100% / 3);
 }
 .header .tagline h2 {
   color: #fafae8;
@@ -80,7 +80,7 @@ h1 {
   display: table;
   table-layout: fixed;
   float: left;
-  width: 33.33333333%; 
+  width: calc(100% / 3); 
 }
 .header nav li a {
   color: #fafae8;
@@ -152,7 +152,7 @@ h1 {
     width: 100% !important; 
   }
   .header nav li {
-    width:33.333333% !important;
+    width: calc(100% / 3)!important;
   }
   .header nav li a {
     height: auto !important;
@@ -172,7 +172,7 @@ h1 {
   .header h1 {
     position: absolute !important;
     height: 100% !important;
-    width: 33.33333333% !important; 
+    width: (33.33333333%) !important; 
     padding-top:8% !important;
     font-size: 44px !important;
   }
@@ -183,7 +183,7 @@ h1 {
   }
   .header .tagline {
     height: auto !important;
-    left: 33.33333333% !important;
+    left: (33.33333333%) !important;
     position: relative !important;
     width: 66.66666667% !important; 
   }
