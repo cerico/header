@@ -18,6 +18,16 @@ class Content extends Component {
 
       return(
         <div id="content">
+        <main className={styles.container}>
+          
+        <div className={styles.spacer}></div>
+        <div className={styles.what}>
+          
+          
+          About Todmorden. There are many reasons to visit Todmorden, it has a long and spectacular history
+
+        </div>
+        </main>
         <BodyColor bodyColour={styles.frontBody}/></div>
         )
   }

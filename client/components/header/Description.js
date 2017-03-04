@@ -14,11 +14,10 @@ class Description extends Component {
     return (
       <div className={styles.description}>
       <Link  to={`/`}>
-      <h1 className={styles.title}>
-      Beba</h1>
+        <h1 className={styles.title}></h1>
       </Link>
       <div className={styles.tagline}>
-      <h2>Design Develop & Code</h2>
+        <h2>Design Develop & Code</h2>
       </div>
       </div>
       );

@@ -12,6 +12,38 @@
     float: left;
 
   }
+  .title, .post__hero {
+      margin-bottom: 6rem;
+  }
+
+  .container .what {
+            padding-left: 8%;
+            padding-right: 8%;
+  }
+
+/*  .container h1, h2, h3, h4, h5, h6, p {
+      margin-bottom: 1.5rem;
+  }*/
+
+
+.spacer{
+  height:260px;
+}
+
+  .what {
+      font-size: 3.5em;
+      font-family: "Tiempos Headline",serif;
+      font-weight: 700;
+      line-height: 1.2;
+      width:100%;
+      color:#f9fae8;
+  }
+
+
+  .container {
+    width:100%;
+
+  }
 
   .list{
     list-style:none;
@@ -182,6 +214,12 @@
                         @media screen and (max-width: 700px) {
                           .notesCol{
                             width: 100%; 
+                          }
+                          .what {
+                              font-size: 2.5em;
+                          }
+                          .spacer{
+                            height:140px !important;
                           }
 
 
