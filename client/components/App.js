@@ -18,7 +18,11 @@ function mapStateToProps(state){
 		events: state.events,
 		event: state.event,
 		underline: state.underline,
-		skills:state.skills
+		skills:state.skills,
+		talks:state.talks,
+		notes:state.notes,
+		about:state.about,
+		contact:state.contact,
 	}
 }
 

@@ -17,8 +17,8 @@
   }
 
   .container .what {
-            padding-left: 8%;
-            padding-right: 8%;
+            margin-left: 8%;
+            margin-right: 8%;
   }
 
 /*  .container h1, h2, h3, h4, h5, h6, p {
@@ -35,8 +35,11 @@
       font-family: "Tiempos Headline",serif;
       font-weight: 700;
       line-height: 1.2;
-      width:100%;
-      color:#f9fae8;
+      width: 84%;
+      color: #e4e4d2;
+      min-height:52vh;
+      /*background: url('./header/img/grey.png');*/
+      text-align: left;
   }
 
 

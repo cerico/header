@@ -6,6 +6,10 @@ import rootReducer from './reducers/index.js';
 
 import events from './data/events.js';
 import skills from './data/skills.js';
+import notes from './data/notes.js';
+import talks from './data/talks.js';
+import about from './data/about.js';
+import contact from './data/contact.js';
 
 console.log(rootReducer)
 
@@ -13,6 +17,10 @@ const defaultState = {
 	events,
 	skills,
 	event,
+	notes,
+	talks,
+	about,
+	contact
 };
 
 console.log(defaultState)
