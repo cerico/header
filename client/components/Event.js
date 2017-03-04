@@ -16,7 +16,7 @@ class Event extends Component {
     const town = this.props.name.toLowerCase()
     const img = require(`./img/${town}.jpg`)
     return (
-      <div className={styles.notesCol}>
+      
         <li className={styles.noteItem}>
           <div className={styles.noteContainer}>
             <a href="#" className={styles.talkThumbnail}>
@@ -29,7 +29,7 @@ class Event extends Component {
             <p className={styles.tabletWords}>{this.props.address}</p>
           </div>
         </li>
-      </div>
+      
     );
   }
 }

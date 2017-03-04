@@ -24,6 +24,12 @@ const skills =
 	date: "2 Days",
 	address: "blurb about Elixir",
 	key:4,
+},
+{
+	name: "Elm",
+	date: "2 Days",
+	address: "blurb about Elm",
+	key:5,
 }
 
 ]
