@@ -4,25 +4,25 @@ const skills =
 [{
 	name: "React",
 	date: "3 Months",
-	blurbOne: "blurb about react",
+	address: "blurb about react",
 	key:1,
 },
 {
 	name: "Angular",
 	date: "2 Years",
-	blurbOne: "blurb about angular",
+	address: "blurb about angular",
 	key:2,
 },
 {
 	name: "Rails",
 	date: "2 Years",
-	blurbOne: "blurb about Rails",
+	address: "blurb about Rails",
 	key:3,
 },
 {
 	name: "Elixir",
 	date: "2 Days",
-	blurbOne: "blurb about Elixir",
+	address: "blurb about Elixir",
 	key:4,
 }
 
